@@ -4,6 +4,9 @@ Energy AI Nexus (Operational v1)
 Computes green inference priority dynamically based on real-time carbon intensity and grid costs.
 """
 import json
+# _veritas_block: outputs of this script are SYNTHETIC TEMPLATES until live data sources are wired.
+# Status per LEGION-VERITAS policy: SCAFFOLD. See VERITAS.md.
+
 
 def get_green_inference_priority(model_name: str, region: str) -> dict:
     # Coefficients d'intensité carbone de la grille énergétique (g CO2/kWh)
